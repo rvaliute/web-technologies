@@ -3,7 +3,23 @@ h1 {background-color:#F69696; color:white}
 .first {background-color:white; color:#606060}
 .second {background-color:#606060; color:white}
 
-table {
+.navigation {
+		border-collapse: collapse;
+		width: 50%;
+	}
+	
+	td, th {
+		border: 1px solid #B0B0B0;
+		text-align: left;
+		padding: 8px;
+	}
+	
+	tr {
+		background-color: #DDF2FF;
+	}
+	
+
+.dogs {
 		border-collapse: collapse;
 		width: 50%;
 	}

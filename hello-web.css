@@ -1,6 +1,7 @@
 body {background-color:#eeeeee}
 h1 {background-color:#F69696; color:white}
-p {background-color:white; color:#606060}
+.first {background-color:white; color:#606060}
+.second {background-color:#606060; color:white}
 
 table {
 		border-collapse: collapse;

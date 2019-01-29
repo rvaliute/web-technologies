@@ -1,6 +1,6 @@
-body {background-color:red}
-h1 {background-color:blue; color:green}
-p {background-color:orange; color:teal}
+body {background-color:#f2f2f2}
+h1 {background-color:#F69696; color:white}
+p {background-color:white; color:#f2f2f2}
 
 table {
 		border-collapse: collapse;

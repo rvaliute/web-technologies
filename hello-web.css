@@ -1,3 +1,22 @@
 body {background-color:red}
 h1 {background-color:blue; color:green}
 p {background-color:orange; color:teal}
+
+table {
+		border-collapse: collapse;
+		width: 50%;
+	}
+	
+	td, th {
+		border: 1px solid #B0B0B0;
+		text-align: left;
+		padding: 8px;
+	}
+	
+	tr {
+		background-color: #DDF2FF;
+	}
+	
+	tr:nth-child(even) {
+		background-color: #E2FBFF;
+	}

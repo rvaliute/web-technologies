@@ -18,11 +18,6 @@ h1 {background-color:#F69696; color:white}
 		background-color: #DDF2FF;
 	}
 
-        .navtr:nth-child(even) {
-		background-color: #E2FBFF;
-	}
-	
-
 
 table {
 		border-collapse: collapse;

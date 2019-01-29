@@ -8,7 +8,7 @@ h1 {background-color:#F69696; color:white}
 		width: 50%;
 	}
 	
-	.navtd, .navth {
+	.navth {
 		border: 1px solid #B0B0B0;
 		text-align: left;
 		padding: 8px;

@@ -8,32 +8,32 @@ h1 {background-color:#F69696; color:white}
 		width: 50%;
 	}
 	
-	td, th {
+	.navtd, .navth {
 		border: 1px solid #B0B0B0;
 		text-align: left;
 		padding: 8px;
 	}
 	
-	tr {
+	.navtr {
 		background-color: #DDF2FF;
 	}
 	
 
-.dogs {
+.alltables {
 		border-collapse: collapse;
 		width: 50%;
 	}
 	
-	td, th {
+	.alltd, .allth {
 		border: 1px solid #B0B0B0;
 		text-align: left;
 		padding: 8px;
 	}
 	
-	tr {
+	.alltr {
 		background-color: #DDF2FF;
 	}
 	
-	tr:nth-child(even) {
+	.alltr:nth-child(even) {
 		background-color: #E2FBFF;
 	}

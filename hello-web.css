@@ -17,12 +17,6 @@ h1 {background-color:#F69696; color:white}
 	.navtr {
 		background-color: #DDF2FF;
 	}
-	
-	.navtr:.navnth-child(even) {
-		background-color: #E2FBFF;
-	}
-
-
 
 
 table {
@@ -40,6 +34,6 @@ table {
 		background-color: #DDF2FF;
 	}
 	
-	tr:nth-child(even) {
+	.alltr:nth-child(even) {
 		background-color: #E2FBFF;
 	}

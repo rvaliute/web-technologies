@@ -17,6 +17,12 @@ h1 {background-color:#F69696; color:white}
 	.navtr {
 		background-color: #DDF2FF;
 	}
+	
+	.navtr:nth-child(even) {
+		background-color: #E2FBFF;
+	}
+
+
 
 
 table {

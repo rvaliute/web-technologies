@@ -19,21 +19,21 @@ h1 {background-color:#F69696; color:white}
 	}
 	
 
-.alltables {
+table {
 		border-collapse: collapse;
 		width: 50%;
 	}
 	
-	.alltd, .allth {
+	td, th {
 		border: 1px solid #B0B0B0;
 		text-align: left;
 		padding: 8px;
 	}
 	
-	.alltr {
+	tr {
 		background-color: #DDF2FF;
 	}
 	
-	.alltr:nth-child(even) {
+	tr:nth-child(even) {
 		background-color: #E2FBFF;
 	}

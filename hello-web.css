@@ -18,7 +18,7 @@ h1 {background-color:#F69696; color:white}
 		background-color: #DDF2FF;
 	}
 
-        tr:nth-child(even) {
+        .navtr:nth-child(even) {
 		background-color: #E2FBFF;
 	}
 	

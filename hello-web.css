@@ -1,43 +1,70 @@
-body {background-color:#eeeeee}
-h1 {background-color:#F69696; color:white}
+.headings {
+  color: #333333;
+}
 
-/* header style */
+.content {
+  color: #333333;
+}
+
+.subcontent {
+  color: #e5c100;
+}
+
+{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
 .header {
-  background-color: #eb5c100;
-  color: #333;
+  background-color: #f1f1f1;
   padding: 20px;
   text-align: center;
+  color: #333333;
+}
 
-/* .first {background-color:white; color:#606060}
-.second {background-color:#606060; color:white} */
-
-/* Navigation bar style */
+/* Style the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #333333;
 }
-	
-/* Nav bar text style */
+
+/* Style the topnav links */
 .topnav a {
   float: left;
   display: block;
-  color: #eb5c100;
+  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  color: #e5c100;
 }
-	
+
 /* Change color on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #f1f1f1;
+  color: #333333;
 }
-	
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right columns */
+.column.side {
+  width: 25%;
+  background-color: #f1f1f1;
 }
 
 /* Middle column */
 .column.middle {
   width: 50%;
+  background-color: #f1f1f1;
 }
 
 /* Clear floats after the columns */
@@ -54,9 +81,9 @@ h1 {background-color:#F69696; color:white}
   }
 }
 
-/* Footer */
+/* Style the footer */
 .footer {
-  background-color: #333;
+  background-color: #333333;
   padding: 10px;
   text-align: center;
   color: #e5c100;

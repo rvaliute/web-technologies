@@ -1,24 +1,68 @@
 body {background-color:#eeeeee}
 h1 {background-color:#F69696; color:white}
-.first {background-color:white; color:#606060}
-.second {background-color:#606060; color:white}
 
-.navigation {
-		border-collapse: collapse;
-		width: 50%;
-	}
+/* header style */
+.header {
+  background-color: #eb5c100;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+
+/* .first {background-color:white; color:#606060}
+.second {background-color:#606060; color:white} */
+
+/* Navigation bar style */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
 	
-	.navtd, .navth {
-		border: 1px solid #B0B0B0;
-		text-align: left;
-		padding: 8px;
-	}
+/* Nav bar text style */
+.topnav a {
+  float: left;
+  display: block;
+  color: #eb5c100;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 	
-	.navtr {
-		background-color: #DDF2FF;
-	}
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+	
+}
 
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
 
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  color: #e5c100;
+}
+
+/* Tables */
 table {
 		border-collapse: collapse;
 		width: 50%;

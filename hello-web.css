@@ -1,16 +1,4 @@
-.headings {
-  color: #333333;
-}
-
-.content {
-  color: #333333;
-}
-
-.subcontent {
-  color: #e5c100;
-}
-
-{
+* {
   box-sizing: border-box;
 }
 
@@ -18,12 +6,25 @@ body {
   margin: 0;
 }
 
+.headings {
+  color: #333333;
+}
+
+.content {
+ color: #333333;
+}
+
+.subcontent {
+ color: #e5c100;
+}
+
+
 /* Style the header */
 .header {
-  background-color: #f1f1f1;
+  background-color: #333333;
   padding: 20px;
   text-align: center;
-  color: #333333;
+  color: #f1f1f1;
 }
 
 /* Style the top navigation bar */
@@ -36,7 +37,7 @@ body {
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #f1f1f1;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -55,16 +56,14 @@ body {
   padding: 10px;
 }
 
-/* Left and right columns */
+/* Left and right column */
 .column.side {
   width: 25%;
-  background-color: #f1f1f1;
 }
 
 /* Middle column */
 .column.middle {
   width: 50%;
-  background-color: #f1f1f1;
 }
 
 /* Clear floats after the columns */
@@ -81,6 +80,14 @@ body {
   }
 }
 
+img.resize {
+max-width: 100%;
+max-height: 100%;
+height: auto;
+width: auto;
+}
+
+
 /* Style the footer */
 .footer {
   background-color: #333333;
@@ -91,20 +98,19 @@ body {
 
 /* Tables */
 table {
-		border-collapse: collapse;
-		width: 50%;
+       border-collapse: collapse;
 	}
 	
 	td, th {
-		border: 1px solid #B0B0B0;
+		border: 1px solid #e5c100;
 		text-align: left;
-		padding: 8px;
+       color: #f1f1f1;
+		padding: 6px;
+       table-layout: auto;
 	}
 	
 	tr {
-		background-color: #DDF2FF;
+		background-color: #333333;
+      
 	}
 	
-	.alltr:nth-child(even) {
-		background-color: #E2FBFF;
-	}

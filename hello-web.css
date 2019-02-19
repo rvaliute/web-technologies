@@ -170,6 +170,9 @@ button:hover {
   background-color: #aa6f73;
 }
 
+  
+/* Add padding to container elements */
+.container {
   padding: 16px;
 }
 

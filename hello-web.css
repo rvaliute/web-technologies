@@ -20,6 +20,7 @@ body {
 
 .headings {
   color: #a39193;
+  text-align: center;
 }
 
 .content {
@@ -112,9 +113,14 @@ width: auto;
 .footer {
   background-color: #333333;
   padding: 10px;
-  text-align: center;
+  text-align: left;
   color: #e5c100;
   box-shadow: 0 50vh 0 50vh #333333;
+}
+
+.fcontent {
+ color: #5b5b5b;
+ font-size: 10px;
 }
 
 /* Tables */

@@ -56,17 +56,16 @@ color: #eabf6c;
 .topnav a {
   float: left;
   display: block;
-  color: #f1f1f1;
+  color: #eea990;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  color: #e5c100;
 }
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: #f1f1f1;
-  color: #333333;
+  background-color: #f7f1f2;
+  color: #66545e;
 }
 
 /* Create three unequal columns that floats next to each other */
@@ -99,6 +98,7 @@ color: #eabf6c;
   }
 }
 
+/* Sets images to auto adjust */
 img.resize {
 max-width: 100%;
 max-height: 100%;
@@ -113,6 +113,7 @@ width: auto;
   padding: 10px;
   text-align: center;
   color: #e5c100;
+  box-shadow: 0 50vh 0 50vh #333333;
 }
 
 /* Tables */
@@ -121,7 +122,7 @@ table {
 	}
 	
 	td, th {
-		border: 1px solid #e5c100;
+		border: 1px;
 		text-align: left;
        color: #f1f1f1;
 		padding: 6px;

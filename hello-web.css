@@ -29,12 +29,12 @@ body {
  color: #f6e0b5;
 }
 
-.links {
+a {
 color: #eabf6c;
 }
 
 /* Change color after visiting link */
-.links a:visited {
+a:visited {
   color: #aa6f73;
 }
 

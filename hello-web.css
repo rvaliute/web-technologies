@@ -1,9 +1,9 @@
 /* Palette */
 /* Headings: #66545e purple || #333333 grey*/
-/* Content: #a39193 grey */
-/* Links: #f6e0b5 yellow */
+/* Content: #a39193 lilac-grey */
+/* Links: #f6e0b5 strange-yellow */
 /* Subcontent (small text): #eea990 orange */
-/* Misc (clicked links?): #aa6f73 red */
+/* Misc (clicked links?): #aa6f73 dark-red */
 
 *{
   box-sizing: border-box;
@@ -12,11 +12,11 @@
 
 body {
   margin: 0 auto;
+  border: 15px solid #333333;
   max-width: 1200px;
   background-color: #f7f1f2;
   font-family: Raleway, Helvetica, sans-serif;
 }
-
 
 .headings {
   color: #a39193;
@@ -31,6 +31,7 @@ body {
  color: #f6e0b5;
 }
 
+/* Links (a href) */
 a {
 color: #eabf6c;
 }
@@ -46,6 +47,7 @@ a:visited {
   padding: 20px;
   text-align: center;
   color: #eea990;
+  
 }
 
 /* Style the top navigation bar */
@@ -93,13 +95,6 @@ a:visited {
   clear: both;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column.side, .column.middle {
-    width: 100%;
-  }
-}
-
 /* Sets images to auto adjust */
 img.resize {
 max-width: 100%;
@@ -115,7 +110,7 @@ width: auto;
   padding: 10px;
   text-align: left;
   color: #e5c100;
-  box-shadow: 0 50vh 0 50vh #333333;
+  /*box-shadow: 0 50vh 0 50vh #333333;*/
 }
 
 .fcontent {
@@ -205,9 +200,9 @@ span.psw {
 /* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;
-  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  margin: 2% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
   border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  width: 40%; /* Could be more or less, depending on screen size */
 }
 
 .close:hover,
@@ -216,21 +211,7 @@ span.psw {
   cursor: pointer;
 }
 
-/* Add Zoom Animation */
-.animate {
-  -webkit-animation: animatezoom 0.6s;
-  animation: animatezoom 0.6s
-}
 
-@-webkit-keyframes animatezoom {
-  from {-webkit-transform: scale(0)} 
-  to {-webkit-transform: scale(1)}
-}
-  
-@keyframes animatezoom {
-  from {transform: scale(0)} 
-  to {transform: scale(1)}
-}
 
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
